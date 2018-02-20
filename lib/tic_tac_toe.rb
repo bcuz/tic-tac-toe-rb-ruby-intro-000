@@ -126,3 +126,10 @@ def winner(board)
     return board[combo[0]]
   end
 end
+
+def play(board)
+  9.times do
+    turn(board)
+  end
+
+end
